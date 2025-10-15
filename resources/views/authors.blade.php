@@ -9,11 +9,11 @@
     <h1>Hello Guys</h1>
     <p>Ayo Kita Kenalan Sama Para Penulis Buku yang Keren</p>
 
-    @foreach ($authors as $item)
+    @foreach ($authors as $auhthor)
         <ul>
-            <li>{{ $item['name'] }}</li>
-            <li>{{ $item['photo'] }}</li>
-            <li>{{ $item['bio'] }}</li>
+            <li>{{ $auhthor['name'] }}</li>
+            <li>{{ $auhthor['photo'] }}</li>
+            <li>{{ $auhthor['bio'] }}</li>
     
         </ul>
     @endforeach

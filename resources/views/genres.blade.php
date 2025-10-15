@@ -9,10 +9,10 @@
     <h1>Hallo Guys</h1>
     <p>Yuuuk Kita Lihat Genre Apa Saja Sih yang Ada</p>
 
-    @foreach ($genres as $item)
+    @foreach ($genres as $genre)
         <ul>
-            <li>{{ $item['name'] }}</li>
-            <li>{{ $item['description'] }}</li>
+            <li>{{ $genre['name'] }}</li>
+            <li>{{ $genre['description'] }}</li>
         </ul>
     @endforeach
 </body>
