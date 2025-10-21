@@ -111,7 +111,7 @@ class BookController extends Controller
         ]);
 
         if ($validator->fails()) {
-            return responses()->json([
+            return response()->json([
                 'succes' => false,
                 'message' => $validator->errors()
             ], 422);
